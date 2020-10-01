@@ -1,0 +1,84 @@
+@import "vars";
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    font-family: "OpenSans-Regular";
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+blockquote,
+cite {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1032px;
+}
+
+.container.container-pages {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1096px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.title {
+    padding: 0 10px;
+    margin-bottom: 50px;
+    @include f300;
+    text-align: center;
+}
+
+body.lock {
+    overflow: hidden;
+}

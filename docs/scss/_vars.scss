@@ -1,0 +1,28 @@
+
+$pink: #f17398;
+
+
+@mixin f400{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+@mixin f300{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+@mixin f600{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+@mixin f700{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+@mixin f800{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}

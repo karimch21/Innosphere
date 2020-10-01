@@ -1,0 +1,574 @@
+@media (max-width: 1200px) {
+    .advantages {
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+    .title {
+        margin-bottom: 30px;
+    }
+    .slider-sponsor__title.title {
+        margin-bottom: 7px;
+    }
+    .quote {
+        margin-bottom: 90px;
+    }
+}
+
+@media (max-width: 1190px) {
+    .upload {
+        margin-bottom: 45px;
+    }
+    .footer {
+        min-height: 245px;
+    }
+    .get {
+        margin-bottom: 55px;
+    }
+    .team {
+        margin-top: 45px;
+        margin-bottom: 80px;
+    }
+    .map-location {
+        margin-bottom: 60px;
+    }
+    .quote {
+        margin-bottom: 70px;
+    }
+    .advantages {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .advantages__title {
+        margin-bottom: 25px;
+    }
+    .about {
+        margin-bottom: 60px;
+    }
+    .quote-author {
+        min-width: 80px;
+    }
+}
+@media (max-width: 1070px) {
+    //here
+    .item-block1 {
+        max-width: 49%;
+        width: 100%;
+    }
+    .upload-item__box {
+        position: relative;
+        height: 49%;
+    }
+    .upload__inner img,
+    .item-block3 img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        object-position: top center;
+        height: 100%;
+    }
+    .item-block2 {
+        order: 1;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .item-block3 {
+        max-width: 50%;
+        width: 100%;
+    }
+    .upload-item__box.boy {
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .upload__wrap.bblock {
+        width: 50%;
+        overflow: hidden;
+    }
+    .upload__wrap .upload-item__box {
+        max-width: 100%;
+        width: 100%;
+        height: 50%;
+    }
+    .upload__inner-item+.upload__inner-item, .upload__wrap {
+        margin-left: 5px;
+    }
+    .item-block2 .upload-item__box {
+        height: 100%;
+    }
+    .upload__inner-item.item-block2 img {
+        max-height: 550px;
+        object-position: center;
+    }
+    
+    //here
+
+    .upload__link-button {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .upload__inner {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .upload__inner-item.item-block2 {
+        margin: 10px 0 0 0;
+    }
+    .advantages {
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+    .about {
+        margin-bottom: 40px;
+    }
+    .advantages__title {
+        margin-top: 15px;
+    }
+    .filter__inner-wrap {
+        display: flex;
+    }
+    .filter-block-row {
+        width: 50%;
+    }
+    .filter-block-row + .filter-block-row {
+        margin: 0 0 0 10px;
+    }
+    .filter-block {
+        margin-bottom: 10px;
+        margin-left: 0px;
+        max-width: 99%;
+    }
+    .filter-block-row {
+        display: block;
+    }
+
+    .filter-block-row .link-button {
+        max-width: 99%;
+    }
+
+    .block-input__color {
+        padding-left: 13px;
+        max-width: calc(100% - 58px);
+    }
+    .filter-block__item {
+        width: calc(100% - 50% - 9px);
+    }
+    .jq-checkbox,
+    .jq-radio {
+        width: 100%;
+    }
+    .filter-block__item.block-answer__no {
+        margin-left: 13px;
+    }
+    .block-input__color {
+        word-spacing: 0px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .slider-sponsor__item.item-envato,
+    .slider-sponsor__item.item-wordpress,
+    .slider-sponsor__item.item-clibble .slider-sponsor__item.item-jquery,
+    .slider-sponsor__item.item-clibble,
+    .slider-sponsor__item.item-jquery {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 990px) {
+    .team {
+        margin-bottom: 60px;
+    }
+    .team__inner-item {
+        max-width: 48%;
+        margin-bottom: 25px;
+    }
+    .team__inner-item > a {
+        display: block;
+    }
+    .about__wrap {
+        padding: 95px 0 60px;
+    }
+    .about__inner-title {
+        margin-bottom: 20px;
+        font-size: 43px;
+    }
+    .about__wrap p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .main-menu {
+        border-top: 1px solid #f5e400;
+        position: absolute;
+        top: 58px;
+        left: -1000px;
+        opacity: 0;
+        width: 100%;
+        background-color: black;
+        transition: all 0.6s;
+    }
+    .header__head,
+    .header__main {
+        position: relative;
+        z-index: 20;
+    }
+    .main-menu.active {
+        left: 0;
+        opacity: 1;
+    }
+    .main-menu li {
+        display: block;
+        text-align: center;
+    }
+    .main-menu li + li {
+        margin-left: 0px;
+    }
+    .main-menu a {
+        border-bottom: 1px solid #f5e400;
+        display: block;
+        max-width: 100%;
+    }
+    .main__burger {
+        display: block;
+    }
+    .header__head {
+        padding: 10px 10px 10px;
+    }
+    .start-part {
+        min-height: 719px;
+    }
+    .start-part__block {
+        top: 265px;
+    }
+}
+
+@media (max-width: 880px) {
+    .link-button.get__submit {
+        max-width: 100%;
+    }
+    .get__inner {
+        display: block;
+    }
+    .get__form {
+        margin-right: 0;
+        max-width: 100%;
+    }
+    .get__info {
+        margin-top: 30px;
+        max-width: 100%;
+    }
+    .get__info-wrap.block__us-info {
+        margin-top: 20px;
+    }
+    .get__info-title {
+        margin-bottom: 10px;
+    }
+    .team {
+        margin-bottom: 25px;
+    }
+    .team-item__title {
+        font-size: 25px;
+    }
+    .quote {
+        margin-bottom: 45px;
+    }
+    .quote-inner {
+        flex-wrap: wrap;
+    }
+    .quote-title.title {
+        margin-bottom: 10px;
+    }
+    .quote-inner__item.quote-block p {
+        padding-right: 0px;
+    }
+    .quote-inner__item {
+        padding: 24px 0 0 60px;
+        max-width: 100%;
+    }
+    .quote-inner__item p {
+        margin-bottom: 5px;
+    }
+    .quote-inner__item + .quote-inner__item {
+        margin-left: 0;
+    }
+    .quote-author {
+        margin-left: 20px;
+        min-width: 65px;
+        width: 65px;
+        height: 65px;
+    }
+    .quote-inner__item::before {
+        content: "\e977";
+        top: 28px;
+    }
+    .quote-inner__item::before {
+        content: "\e977";
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 800px) {
+    .slider-sponsor__item.item-envato,
+    .slider-sponsor__item.item-wordpress,
+    .slider-sponsor__item.item-clibble .slider-sponsor__item.item-jquery,
+    .slider-sponsor__item.item-clibble,
+    .slider-sponsor__item.item-jquery {
+        margin-left: 20px;
+    }
+
+    .advantages__title {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .advantages p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 790px) {
+    .team-item__social li + li {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 700px) {
+    header.header {
+        position: absolute;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+    .swiper-pagination {
+        display: block;
+        margin-bottom: -10px;
+    }
+}
+
+@media (max-width: 650px) {
+    .upload__inner-item.item-block3 {
+        margin-top: 10px;
+        max-width: 100%;
+        max-height: 505px;
+    }
+    .item-block1 {
+        max-width: 100%;
+    }
+    .upload__inner-item+.upload__inner-item, .upload__wrap {
+        margin-left: 0;
+    }
+    .upload__wrap.bblock{
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 600px) {
+    .get__form-block input,
+    .get__form textarea {
+        margin-bottom: 10px;
+    }
+    .team__inner-item {
+        max-width: 100%;
+        margin-bottom: 27px;
+    }
+    .slider-sponsor__item.item-envato,
+    .slider-sponsor__item.item-wordpress,
+    .slider-sponsor__item.item-clibble .slider-sponsor__item.item-jquery,
+    .slider-sponsor__item.item-clibble,
+    .slider-sponsor__item.item-jquery {
+        margin-left: 8px;
+    }
+    .header__head-inner {
+        display: block;
+    }
+    .header__head-item + .header__head-item {
+        margin-left: 0;
+    }
+    .header__head-item {
+        margin-bottom: 12px;
+        max-width: 100%;
+    }
+    .start-part__block {
+        top: 304px;
+    }
+}
+
+@media (max-width: 560px) {
+    .slider-sponsor__item.item-jquery {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .filter-block-row + .filter-block-row {
+        margin: 0;
+    }
+    .advantages__title {
+        margin-top: 30px;
+    }
+    .start-part__inner {
+        padding: 15px;
+        max-width: 380px;
+    }
+    .start-rart__title {
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .start-part__inner.part-width {
+        padding: 15px;
+    }
+    .start-part__text {
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .search-part {
+        max-width: 280px;
+        width: 100%;
+    }
+    .search-part input {
+        padding: 0 22px 0 72px;
+        width: 100%;
+        &::placeholder {
+            font-size: 15px;
+            color: #ffffff;
+            @include f700;
+        }
+    }
+    .filter-block-row {
+        width: 100%;
+    }
+    .filter__inner-wrap {
+        display: block;
+    }
+    .filter-block__item.block-answer__no {
+        margin-left: 9px;
+    }
+    .filter-block,
+    .filter-block-row .link-button {
+        max-width: 100%;
+    }
+    .filter-block__item {
+        width: calc(100% - 48% - 16px);
+    }
+}
+
+
+
+
+@media (max-width: 420px) {
+    .upload-item__box.boy {
+        display: none;
+    }
+    .item-block3 {
+        display: block;
+        max-height: 100%;
+    }
+    .upload__inner-item.item-block3 {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .upload__wrap.bblock .upload-item__box {
+        max-height: 280px;
+        overflow: hidden;
+    }
+    .upload__wrap.bblock {
+        margin-left: 0;
+        width: 100%;
+    }
+    .footer-list__social {
+        margin-bottom: 15px;
+    }
+    .footer-list__social li + li {
+        margin-left: 10px;
+    }
+    .slider-sponsor__item.item-clibble {
+        display: none;
+    }
+    .upload__inner-item.item-block3 {
+        display: none;
+        order: 1;
+    }
+}
+
+@media (max-width: 400px) {
+    .advantages {
+        margin-bottom: 35px;
+    }
+    .quote-inner__item p {
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .quote-author-name {
+        font-size: 14px;
+    }
+    .about__wrap {
+        padding: 70px 0 60px;
+    }
+    .start-part__inner {
+        padding: 15px;
+        max-width: 315px;
+    }
+    .about__inner-title {
+        margin-bottom: 10px;
+        font-size: 36px;
+    }
+    .about__wrap p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 360px) {
+    .get__form-block input::placeholder,
+    .get__form textarea::placeholder {
+        font-size: 16px;
+    }
+    .about__inner-title {
+        margin-bottom: 10px;
+        font-size: 31px;
+    }
+    .about__wrap p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .start-part__block {
+        top: 285px;
+    }
+    .start-part__inner {
+        max-width: 290px;
+    }
+    .header__head {
+        padding: 10px 13px 5px;
+    }
+    .search-part {
+        bottom: 43px;
+    }
+    .search-part label::before {
+        content: "\f002";
+        padding-top: 12px;
+        font-size: 15px;
+        width: 47px;
+        height: 43px;
+        top: 0px;
+    }
+    .search-part input {
+        padding: 0 21px 0 67px;
+        height: 43px;
+    }
+    .jq-selectbox__select {
+        padding: 0 45px 0 5px;
+    }
+    .block-input__color {
+        padding-left: 5px;
+    }
+}
+
+@media (min-width: 701px) {
+    body.lock header.header {
+        height: 100%;
+        overflow: scroll;
+    }
+}
